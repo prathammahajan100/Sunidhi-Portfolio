@@ -265,14 +265,14 @@
       const name = document.getElementById('cname').value.trim();
       const email = document.getElementById('cemail').value.trim();
       const msg  = document.getElementById('cmsg').value.trim();
-      const recipient = 'prathammahajan100@gmail.com';
+      const recipient = 'patilsunidhi05@gmail.com';
       const subject = encodeURIComponent('Portfolio contact from ' + name);
       const body = encodeURIComponent('Name: '+name + '\\nEmail: '+email + '\\n\\n' + msg);
       window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
     }
 
     function copyEmail(){
-      const email = 'prathammahajan100@gmail.com';
+      const email = 'patilsunidhi05@gmail.com';
       navigator.clipboard?.writeText(email);
       alert('Email copied: ' + email);
     }
@@ -287,3 +287,4 @@
   </script>
 </body>
 </html>
+
